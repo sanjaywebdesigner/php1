@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+		.sanjay{
+			width:1000px;
+			height:100px;
+			background-color:red;
+		}
+		.logo{
+			width:200px;
+			height:100px;
+			background-color:red;
+			float:left;
+		}
+		.heading{
+			width:600px;
+			height:100px;
+			background-color:green;
+			float:left;
+		}
+		.social{
+			width:200px;
+			height:100px;
+			background-color:blue;
+			float:left;
+		}
+		.menu{
+			width:1000px;
+			height:52px;
+			
+		}
+		.a1{width:198px;
+			height:50px;
+			background-color:brown;
+			color:white;
+			text-align:center;
+			line-height:50px;
+			float:left;
+			border:1px solid yellow;
+}
+		.content{
+			width:1000px;
+			height:402px;
+			
+		}
+		.s1{width:248px;
+			height:400px;
+			float:left;
+			border:1px solid black;
+}
+		.footer{
+			width:1000px;
+			height:200px;
+			background-color:black;
+		}
+
+
