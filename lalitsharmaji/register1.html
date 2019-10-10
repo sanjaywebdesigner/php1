@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<form method="post" action="reg1.php">
+	<input type="text" name="username"><br>
+		<input type="text" name="password"><br>
+		<input type="radio" value="male" name="gender">male<input type="radio" value="female" name="gender">female<br>
+		<input type="checkbox" value="singing" name="hobbies[]">singing<input type="checkbox" value="reading" name="hobbies[]">reading<input type="checkbox" value="playing" name="hobbies[]">playing<input type="checkbox" value="dancing" name="hobbies[]">dancing<br>
+		Date<select name="date">
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		</select>
+		Month<select name="month">
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		</select>
+		Year<select name="year">
+		<option>2001</option>
+		<option>2002</option>
+		<option>2003</option>
+		</select><br>
+		Country Visited<select name="country[]" multiple>
+		<option>India</option>
+		<option>America</option>
+		<option>Japan</option>
+		</select><br>
+		<input type="submit" value="click">
+	</form>
+</body>
+</html>
