@@ -1,0 +1,9 @@
+$('#click_advance').click(function(){
+  $('#display_advance').toggle('1000');
+  icon = $(this).find("i");
+  icon.hasClass("icon-circle-arrow-down"){
+    icon.addClass("icon-circle-arrow-up").removeClass("icon-circle-arrow-down");
+  }else{
+    icon.addClass("icon-circle-arrow-down").removeClass("icon-circle-arrow-up");
+  }
+})
