@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		ul{
+			width:1008px;
+			height:52px;
+			margin:0;
+			padding:0;
+		}
+		ul li{
+			width:250px;
+			height:50px;
+			border:1px solid black;
+			background-color:red;
+			float: left;
+			list-style-type:none;
+			color:white;
+			text-align:center;
+			line-height:50px;
+		}
+		ul li ul{
+			width:252px;
+			display:none;
+		}
+		ul li:hover ul{
+			display:block;
+		}
+		ul li ul li{
+			position:relative;
+		}
+		ul li ul li ul{
+			position:absolute;
+			top:0;
+			left:252px;
+		}
+		ul li:hover ul li ul{
+			display:none;
+		}
+		ul li ul li:hover ul{
+			display:block;
+		}
+	</style>
+</head>
+
+<body>
+	<ul>
+		<li>home
+		<ul>
+			<li>part1
+			<ul>
+				<li>h1</li>
+				<li>h2</li>
+				<li>h3</li>
+				</ul>
+			
+			</li>
+			<li>part2</li>
+			<li>part3</li>
+			<li>part4
+			<ul>
+				<li>h1</li>
+				<li>h2</li>
+				<li>h3</li>
+				</ul>
+			</li>
+			</ul>
+		</li>
+		<li>about</li>
+		<li>contact</li>
+		<li>services
+		<ul>
+			<li>part1
+			<ul>
+				<li>h1</li>
+				<li>h2</li>
+				<li>h3</li>
+				</ul>
+			
+			</li>
+			<li>part2</li>
+			<li>part3</li>
+			<li>part4
+			<ul>
+				<li>h1</li>
+				<li>h2</li>
+				<li>h3</li>
+				</ul>
+			</li>
+			</ul>
+		
+		</li>
+	</ul>
+</body>
+</html>
